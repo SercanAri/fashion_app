@@ -106,7 +106,7 @@ class _DetayState extends State<Detay> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           const Text(
-                            '\$6500',
+                            '\$6600',
                             style: TextStyle(
                                 fontFamily: 'Montserrat', fontSize: 22),
                           ),
@@ -114,8 +114,8 @@ class _DetayState extends State<Detay> {
                             margin: const EdgeInsets.only(right: 30),
                             child: FloatingActionButton(
                               onPressed: () {},
-                              child:
-                                  const Center(child: Icon(Icons.arrow_forward_ios)),
+                              child: const Center(
+                                  child: Icon(Icons.arrow_forward_ios)),
                               backgroundColor: Colors.brown,
                             ),
                           ),
@@ -127,9 +127,8 @@ class _DetayState extends State<Detay> {
               ),
             ),
           ),
-
           Positioned(
-            top: MediaQuery.of(context).size.height/2,
+            top: MediaQuery.of(context).size.height / 2,
             left: 50,
             child: Container(
               height: 40,
@@ -141,14 +140,23 @@ class _DetayState extends State<Detay> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: const <Widget>[
-                  Center(child: Text('LAMINATED',style: TextStyle(fontFamily: 'Montserrat', color: Colors.white,fontWeight: FontWeight.bold),)),
-                  Icon(Icons.arrow_forward_ios,color: Colors.white, size: 18,)
+                  Center(
+                      child: Text(
+                    'LAMINATED',
+                    style: TextStyle(
+                        fontFamily: 'Montserrat',
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
+                  )),
+                  Icon(
+                    Icons.arrow_forward_ios,
+                    color: Colors.white,
+                    size: 18,
+                  )
                 ],
               ),
             ),
-            
           )
-
         ],
       ),
     );
