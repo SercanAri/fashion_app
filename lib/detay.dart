@@ -74,7 +74,7 @@ class _DetayState extends State<Detay> {
                               height: 5,
                             ),
                             const Text(
-                              'Louis vuitton',
+                              'Louis Vuitton',
                               style: TextStyle(
                                   fontSize: 16,
                                   fontFamily: 'Montserrat',
